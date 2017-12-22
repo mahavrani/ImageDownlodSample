@@ -12,6 +12,9 @@
 		5F4F44511FECCD1900F0905E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F4F444F1FECCD1900F0905E /* Main.storyboard */; };
 		5F4F44531FECCD1900F0905E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F4F44521FECCD1900F0905E /* Assets.xcassets */; };
 		5F4F44561FECCD1900F0905E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F4F44541FECCD1900F0905E /* LaunchScreen.storyboard */; };
+		5F4F445E1FECD53000F0905E /* Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4F445D1FECD53000F0905E /* Details.swift */; };
+		5F4F44611FECE22F00F0905E /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4F445F1FECE22F00F0905E /* ImageTableViewCell.swift */; };
+		5F4F44621FECE22F00F0905E /* ImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F4F44601FECE22F00F0905E /* ImageTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		5F4F44521FECCD1900F0905E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F4F44551FECCD1900F0905E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F4F44571FECCD1900F0905E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F4F445D1FECD53000F0905E /* Details.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Details.swift; path = ../Details.swift; sourceTree = "<group>"; };
+		5F4F445F1FECE22F00F0905E /* ImageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
+		5F4F44601FECE22F00F0905E /* ImageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +61,11 @@
 			isa = PBXGroup;
 			children = (
 				5F4F444B1FECCD1900F0905E /* AppDelegate.swift */,
+				5F4F445D1FECD53000F0905E /* Details.swift */,
 				5F4F444D1FECCD1900F0905E /* ViewController.swift */,
 				5F4F444F1FECCD1900F0905E /* Main.storyboard */,
+				5F4F445F1FECE22F00F0905E /* ImageTableViewCell.swift */,
+				5F4F44601FECE22F00F0905E /* ImageTableViewCell.xib */,
 				5F4F44521FECCD1900F0905E /* Assets.xcassets */,
 				5F4F44541FECCD1900F0905E /* LaunchScreen.storyboard */,
 				5F4F44571FECCD1900F0905E /* Info.plist */,
@@ -124,6 +133,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F4F44561FECCD1900F0905E /* LaunchScreen.storyboard in Resources */,
+				5F4F44621FECE22F00F0905E /* ImageTableViewCell.xib in Resources */,
 				5F4F44531FECCD1900F0905E /* Assets.xcassets in Resources */,
 				5F4F44511FECCD1900F0905E /* Main.storyboard in Resources */,
 			);
@@ -137,7 +147,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F4F444E1FECCD1900F0905E /* ViewController.swift in Sources */,
+				5F4F44611FECE22F00F0905E /* ImageTableViewCell.swift in Sources */,
 				5F4F444C1FECCD1900F0905E /* AppDelegate.swift in Sources */,
+				5F4F445E1FECD53000F0905E /* Details.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +273,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ImageDownlodSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.excelacom.centruryapp.ImageDownlodSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -273,6 +286,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ImageDownlodSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.excelacom.centruryapp.ImageDownlodSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
